@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "a1",
+        "sort" : "甲",
+        "children" : [{"name" : "甲1", "ckey" : "j1"},{"name" : "甲2", "ckey" : "j2"},{"name" : "甲3", "ckey" : "j3"},{"name" : "甲4", "ckey" : "j4"},{"name" : "甲5", "ckey" : "j5"},{"name" : "甲6", "ckey" : "j6"},{"name" : "甲7", "ckey" : "j7"}]
+    },
+    {
+        "id" : "a2",
+        "sort" : "乙",
+        "children" : [{"name" : "乙1", "ckey" : "y1"},{"name" : "乙2", "ckey" : "y2"},{"name" : "乙3", "ckey" : "y3"},{"name" : "乙4", "ckey" : "y4"},{"name" : "乙5", "ckey" : "y5"},{"name" : "乙6", "ckey" : "y6"},{"name" : "乙7", "ckey" : "y7"}]
+    },
+    {
+        "id" : "a3",
+        "sort" : "丙",
+        "children" : [{"name" : "丙1", "ckey" : "b1"},{"name" : "丙2", "ckey" : "b2"},{"name" : "丙3", "ckey" : "b3"},{"name" : "丙4", "ckey" : "b4"},{"name" : "丙5", "ckey" : "b5"},{"name" : "丙6", "ckey" : "b6"},{"name" : "丙7", "ckey" : "b7"}]
+    },
+    {
+        "id" : "a4",
+        "sort" : "丁",
+        "children" : [{"name" : "丁1", "ckey" : "d1"},{"name" : "丁2", "ckey" : "d2"},{"name" : "丁3", "ckey" : "d3"},{"name" : "丁4", "ckey" : "d4"},{"name" : "丁5", "ckey" : "d5"},{"name" : "丁6", "ckey" : "d6"},{"name" : "丁7", "ckey" : "d7"}]
+    },
+    {
+        "id" : "a5",
+        "sort" : "戊",
+        "children" : [{"name" : "戊1", "ckey" : "w1"},{"name" : "戊2", "ckey" : "w2"},{"name" : "戊3", "ckey" : "w3"},{"name" : "戊4", "ckey" : "w4"},{"name" : "戊5", "ckey" : "w5"},{"name" : "戊6", "ckey" : "w6"},{"name" : "戊7", "ckey" : "w7"}]
+    },
+    {
+        "id" : "a6",
+        "sort" : "己",
+        "children" : [{"name" : "己1", "ckey" : "ji1"},{"name" : "己2", "ckey" : "ji2"},{"name" : "己3", "ckey" : "ji3"},{"name" : "己4", "ckey" : "ji4"},{"name" : "己5", "ckey" : "ji5"},{"name" : "己6", "ckey" : "ji6"},{"name" : "己7", "ckey" : "ji7"}]
+    }
+]

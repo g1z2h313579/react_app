@@ -1,0 +1,28 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.eat{
+    margin-bottom: px2vh(60px);
+    .top{
+        position: fixed;
+        top: 0;
+        width:100%;
+        height:px2vh(30px);
+        text-align: center;
+        // position: relative;
+        background:darkcyan;
+        .back{
+            position: absolute;
+            left:px2vw(10px);
+            top:px2vh(8px);
+          display: inline-block; 
+          width:5vw;
+          height:5vw;}
+      span{font-size:1rem;
+          line-height: px2vh(30px);
+          color:#fff;}
+     }
+}

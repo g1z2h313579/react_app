@@ -1,0 +1,11 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.disImage{margin:px2vh(10px) 0;
+    display:flex;
+    justify-content: space-between;
+    img{width:px2vw(108px);height:px2vh(102px);}
+}

@@ -1,0 +1,156 @@
+.twelveCircle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@-webkit-keyframes twelveCircleScale {
+    0%,80%,to {
+        transform: scale3d(0,0,1)
+    }
+
+    40% {
+        transform: scaleX(1)
+    }
+}
+
+@keyframes twelveCircleScale {
+    0%,80%,to {
+        transform: scale3d(0,0,1)
+    }
+
+    40% {
+        transform: scaleX(1)
+    }
+}
+
+@-webkit-keyframes twelveCircle-fade {
+    0%,39%,to {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+}
+
+@keyframes twelveCircle-fade {
+    0%,39%,to {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+}
+
+.twelveCircleItem {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 10%;
+    top: 10%
+}
+
+.twelveCircleItem div {
+    border-radius: 100%
+}
+
+.twelveCircleScale div,.twelveCircleScale svg {
+    animation: twelveCircleScale 1.2s infinite ease-in-out both
+}
+
+.twelveCircle-fade div,.twelveCircle-fade svg {
+    animation: twelveCircle-fade 1.2s infinite ease-in-out both
+}
+
+.twelveCircle .twelveCircleItem:nth-child(2) {
+    transform: rotate(30deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(2) div,.twelveCircle .twelveCircleItem:nth-child(2) svg {
+    animation-delay: -1.1s;
+    
+    
+}
+
+.twelveCircle .twelveCircleItem:nth-child(3) {
+    transform: rotate(60deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(3) div,.twelveCircle .twelveCircleItem:nth-child(3) svg {
+    animation-delay: -1s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(4) {
+    transform: rotate(90deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(4) div,.twelveCircle .twelveCircleItem:nth-child(4) svg {
+    animation-delay: -.9s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(5) {
+    transform: rotate(120deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(5) div,.twelveCircle .twelveCircleItem:nth-child(5) svg {
+    animation-delay: -.8s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(6) {
+    transform: rotate(150deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(6) div,.twelveCircle .twelveCircleItem:nth-child(6) svg {
+    animation-delay: -.7s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(7) {
+    transform: rotate(180deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(7) div,.twelveCircle .twelveCircleItem:nth-child(7) svg {
+    animation-delay: -.6s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(8) {
+    transform: rotate(210deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(8) div,.twelveCircle .twelveCircleItem:nth-child(8) svg {
+    animation-delay: -.5s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(9) {
+    transform: rotate(240deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(9) div,.twelveCircle .twelveCircleItem:nth-child(9) svg {
+    animation-delay: -.4s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(10) {
+    transform: rotate(270deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(10) div,.twelveCircle .twelveCircleItem:nth-child(10) svg {
+    animation-delay: -.3s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(11) {
+    transform: rotate(300deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(11) div,.twelveCircle .twelveCircleItem:nth-child(11) svg {
+    animation-delay: -.2s
+}
+
+.twelveCircle .twelveCircleItem:nth-child(12) {
+    transform: rotate(330deg)
+}
+
+.twelveCircle .twelveCircleItem:nth-child(12) div,.twelveCircle .twelveCircleItem:nth-child(12) svg {
+    animation-delay: -.1s
+}

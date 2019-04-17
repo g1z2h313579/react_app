@@ -1,0 +1,60 @@
+.baotang{
+    margin-top: 5vh;
+    ul{
+        margin: 0;
+        padding: 0;
+        h3,p{
+            margin: 0;
+        }
+    }
+    ul li{list-style-type: none;display:flex;padding:1.99vh 5.33vw;width: 100vw}
+    ul li .left{
+        left: 5.33vw;
+        top: 11.99vh;
+        width:32vw;
+        height:11.994vh;}
+    ul li .left img{
+        width:32vw;
+        height:11.994vh;
+    }  
+    ul li .right{margin-left:5.22vw;}
+    ul li .right h3{
+        width: 57.07vw;
+        height: 3.54vh;
+        color: rgba(77, 76, 76, 1);
+        font-size: 0.88rem;
+        line-height: 3.54vh;
+        text-align: left;
+        font-family: PingFangSC-regular;
+        }
+    ul li .right .p1{
+            width: 57vw;
+            height: 3.55vh;
+            color: rgba(77, 76, 76, 1); 
+            font-size: 0.88rem;
+            line-height: 3.55vh;
+            text-align: left;
+            font-family: PingFangSC-regular;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            }
+    ul li .right span{
+        width: 12.8vw;
+        height: 3.55vh;
+        color: rgba(142, 141, 141, 1);
+        font-size:  0.88rem;
+        line-height: 3.54vh;
+        text-align: left;
+        font-family: PingFangSC-regular;
+    
+    }
+    ul li .right .p2{height: 3.55vh;}
+    ul li .right .p2 em{
+        color: rgba(77, 76, 76, 1);
+        font-size:  0.88rem;
+        text-align: left;
+        font-family: PingFangSC-regular;
+        margin-right:2.66vw;
+    }
+}

@@ -1,0 +1,29 @@
+@function px2vw($px){
+    @return $px / 375px * 100vw
+  };
+  
+@function px2vh($px){
+    @return $px / 667px * 100vh
+  }
+.gfWarp{
+    ul{
+        padding: 0;
+        display : flex;
+        flex-direction:column;
+        align-items: center;
+        li{
+            // padding: 0 px2vw(30px);
+            width : 80%;
+            border-bottom : 1px solid #8E8D8D;
+            padding-bottom: px2vh(10px);
+            margin-bottom: px2vh(10px);
+            h2{
+                margin: 0;
+                
+            }
+            span{
+                color: #8E8D8D;
+            }
+        }
+    }
+}

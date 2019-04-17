@@ -1,0 +1,25 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.auth{display:flex;
+    margin:px2vw(10px) 0;
+    width:px2vw(170px);
+    .left{
+        span{
+            width:px2vw(36px);height:px2vh(36px);
+            border:1px solid #ccc;
+            border-radius: 50%;
+            display:block;
+            overflow: hidden;
+            img{width:px2vw(36px);height:px2vh(36px);}
+        }
+    }
+    .right{margin-left:px2vw(5px); 
+        line-height: px2vh(18px);
+        p{color:#101010;  font-size:0.88rem;margin: 0;}
+        span{display: block;color:#8E8D8D;  font-size:0.66rem;}
+    }
+}

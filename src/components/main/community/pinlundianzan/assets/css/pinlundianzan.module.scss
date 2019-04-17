@@ -1,0 +1,23 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.pinlundianzan{margin:px2vh(10px) 0;
+    padding:0 px2vw(30px);
+    display:flex;
+    justify-content: space-between;
+    color:#8E8D8D;  
+    font-size:0.66rem;
+    line-height: px2vh(22px);
+   div{width: px2vw(50px);height:px2vh(40px);
+       position: relative;
+       .tu{width:px2vw(8px);
+           height:px2vh(8px);
+        margin-right:px2vw(8px);}
+        span{position: absolute;
+            top:px2vh(4px);}
+   }
+   
+}

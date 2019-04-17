@@ -1,0 +1,15 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.heart{margin:px2vh(15px) 0;
+       width: px2vw(50px);height:px2vh(40px);
+       position: relative;
+       .tu{width:px2vw(8px);
+           height:px2vh(8px);
+        margin-right:px2vw(8px);}
+        span{position: absolute;
+            top:px2vh(4px);}
+}

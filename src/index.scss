@@ -1,0 +1,64 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form,
+fieldset, legend, input, textarea, select, td, div, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.left {
+  float: left;
+}
+
+
+ul:after {
+  content: '';
+  height: auto;
+  display: block;
+  clear: both;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+.grey {
+  color: #acacac;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.clearfix:after {
+  content: '';
+  height: auto;
+  display: block;
+  clear: both;
+}
+
+
+img {
+  display: block;
+}
+
+.clearbe:before {
+  content: '';
+  display: table;
+}
+
+.vermid:after {
+  display: inline-block;
+  height: 100%;
+  content: '';
+  vertical-align: middle;
+}
+
+
+html,body,#root{
+  height: 100%;
+}
+
+/*# sourceMappingURL=public.css.map */

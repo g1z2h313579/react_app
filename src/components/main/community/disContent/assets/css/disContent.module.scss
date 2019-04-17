@@ -1,0 +1,14 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.disContent{margin:px2vh(10px) 0;
+    color:#101010;  
+    font-size:0.88rem;
+    line-height: px2vh(22px);
+    p{white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;}
+}

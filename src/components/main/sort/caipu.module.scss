@@ -1,0 +1,12 @@
+@function px2vw($px){
+    @return $px / 375px * 100vw
+  };
+  
+@function px2vh($px){
+    @return $px / 667px * 100vh
+  }
+.content{
+    width: 100vw;
+    padding:px2vh(10px) px2vw(4px);
+    
+}

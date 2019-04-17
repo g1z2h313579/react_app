@@ -1,0 +1,19 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.guanzhu{margin:px2vh(10px) 0;
+         width:px2vw(60px);
+         padding-top:px2vh(5px);
+    span{
+        display: block;
+        width:px2vw(55px);
+        height:px2vh(20px);
+        line-height: px2vh(20px);
+        border:1px solid #ccc;
+        color:#e90327;
+        text-align: center;
+    }
+}

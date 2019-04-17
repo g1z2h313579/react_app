@@ -1,0 +1,42 @@
+[
+    {
+        "title" : "葱爆牛肉",
+        "name" : "谁",
+        "play" : 123,
+        "collection" : 321,
+        "src" : "/video/2.mp4",
+        "bg" : "/video/videobg2.png"
+    },
+    {
+        "title" : "糖醋小排",
+        "name" : "我",
+        "play" : 10086,
+        "collection" : 10010,
+        "src" : "/video/2.mp4",
+        "bg" : "/video/videobg2.png"
+    },
+    {
+        "title" : "回锅肉",
+        "name" : "我真腻害",
+        "play" : 12345,
+        "collection" : 110,
+        "src" : "/video/2.mp4",
+        "bg" : "/video/videobg2.png"
+    },
+    {
+        "title" : "回锅肉",
+        "name" : "谁的菜",
+        "play" : 123,
+        "collection" : 321,
+        "src" : "/video/2.mp4",
+        "bg" : "/video/videobg2.png"
+    },
+    {
+        "title" : "葱爆牛肉",
+        "name" : "谁的菜",
+        "play" : 123,
+        "collection" : 321,
+        "src" : "/video/2.mp4",
+        "bg" : "/video/videobg2.png"
+    }
+]

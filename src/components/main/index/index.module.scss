@@ -1,0 +1,57 @@
+@function px2vw($px){
+    @return $px / 375px * 100vw
+  };
+  
+@function px2vh($px){
+    @return $px / 667px * 100vh
+  }
+.inContent{
+    margin-top: px2vh(10px);
+    .map{
+      margin: px2vh(10px) auto;
+      width: 90%;
+      // border: 1px solid black;
+      height: px2vw(150px);
+    }
+    .swipe{
+      img{
+        margin: 0 auto;
+        width: px2vw(350px);
+        height: px2vh(200px);
+      }
+    }
+
+    .link{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: px2vh(10px);
+      a{
+        padding: px2vh(10px) px2vw(18px);
+        font-weight: bold;
+      }
+    }
+
+    .video{
+      width: 100vw;
+      height: px2vh(200px);
+      margin-top: px2vh(20px);
+      overflow: hidden;
+      h2{
+        text-align: center;
+        font-size: px2vw(20px)
+      }
+      .myvideo{
+       
+        .left{
+          float: left;
+          padding-left:px2vw(20px);
+        }
+        .right{
+          float: right;
+          >div:nth-child(1){
+            margin-bottom: px2vh(22px);
+          }
+        }
+      }
+    }
+}

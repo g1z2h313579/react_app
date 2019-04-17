@@ -1,0 +1,35 @@
+
+@function px2vw($px){
+    @return $px / 375px * 100vw
+  };
+  
+@function px2vh($px){
+    @return $px / 667px * 100vh
+  };
+.ul{
+    display: flex;
+    flex-direction: column;
+    line-height: px2vh(40px);
+    padding: 0 px2vw(30px);
+    position: relative;
+    >li{
+        flex-grow: 1;
+        height: px2vh(40px);
+        ul{
+            position: absolute;
+            right: 0;
+            top: 0;
+            display : flex;
+            flex-wrap: wrap;
+            width: px2vw(230px);
+            display: none;
+            li{
+                padding: 0 px2vw(15px);
+                float: none;
+                
+            }
+        }
+    }
+    
+    
+}

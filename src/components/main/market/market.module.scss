@@ -1,0 +1,86 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.market{
+    .top{position: fixed;
+        top:0;
+        width:100%;
+        height:px2vh(50px);
+        text-align: center;
+        background:darkcyan;
+        .back{
+            position: absolute;
+            left:px2vw(10px);
+            top:35%;
+          display: inline-block; 
+          width:px2vw(30px);
+          height:px2vh(30px);}
+      span{font-size:1.4rem;
+          line-height: px2vh(50px);
+          color:#fff;}
+     }
+     h3{margin:0;padding:0;
+        margin-top:px2vh(50px);
+         font-size:1.4rem;
+        line-height: px2vh(40px);
+        text-align:center;}
+        ul.ul1{
+            margin:0;
+            padding: 0;
+            padding:0 px2vw(20px);
+            padding-bottom:px2vh(40px);
+            display:flex;
+            justify-content: space-between;
+            flex-wrap:wrap;
+        li{
+            // margin-top:px2vh(10px);
+            margin-bottom:px2vh(10px);
+            width: 40vw;
+            img{
+                width:100%;
+                // height:px2vh(140px);
+            }
+            p{ 
+                margin:0;
+                padding:0;
+                // width:px2vw(150px);
+                color:#101010;  
+                font-size:1.24rem;
+                line-height: px2vh(24px);
+                text-indent: 1rem;
+                margin-top:px2vh(5px);
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .bot{
+                display:flex;
+                justify-content: space-between;
+                span{
+                    color:red; 
+                    font-size:1.6rem;
+                    line-height:  px2vh(30px);
+                    // text-indent: 1rem;
+                    text-align: center;
+                }
+                em{
+                    display: block;
+                    justify-content: space-between;
+                    width: px2vw(90px);
+                     height: px2vh(28px);
+                    background: #e90327 ;
+                    color: #fff;
+                    font-size:0.88rem;
+                   font-weight: bold;
+                   text-align: center;
+                   line-height:  px2vh(30px);
+                    // margin-left: px2vw(23px);
+
+                }
+            }
+        }
+     }
+}

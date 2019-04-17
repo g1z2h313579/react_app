@@ -1,0 +1,64 @@
+@function px2vw($px){
+    @return $px/3.75px * 1vw
+};
+@function px2vh($px){
+    @return $px/6.67px * 1vh
+};
+.user{background: #ccc;
+    .top{height:px2vh(150px);
+        width:100%;
+         display:flex;
+        background:url("./img/user.jpg") no-repeat ;
+        position: relative;
+        .left{position: absolute;
+              left:px2vw(40px);top:px2vh(40px);
+            span{width:16vw;height:16vw;
+                border:1px solid #fff;
+                border-radius: 50%;
+                display:block;
+                overflow: hidden;
+                img{width:16vw;height:16vw;}
+            }
+        }
+        .right{
+            position: absolute;
+            left:px2vw(90px);top:px2vh(50px);
+            margin-left:px2vw(15px);
+            font-size:1rem;
+            line-height: px2vh(16px);
+            color:#fff;
+            p{margin-top: px2vh(10px);}
+        }
+    }
+    ul.ul1{display: flex;padding:0 px2vw(15px);
+        background: #fff;
+        margin-top: px2vh(15px);
+        li{width:px2vw(110px);height: px2vh(55px);
+            text-align: center;
+            line-height: px2vh(55px);
+           font-size:1rem;
+           color:#ccc;
+        }
+    }
+    ul.ul2{display: flex;padding:0 px2vw(15px);padding-bottom:px2vh(40px); 
+        flex-wrap:wrap;
+        background: #fff;
+        margin-top: px2vh(15px);
+        li{width:px2vw(110px);height:px2vh(110px);
+             text-align: center;
+             border-bottom:1px solid #ccc;
+             border-right:1px solid #ccc;
+             position: relative;
+             .tu1{position: absolute;left:45%;top:40%;color:#fa5d6d;}
+             .tu2{position: absolute;left:45%;top:40%;color:#feaa31;}
+             .tu3{position: absolute;left:45%;top:40%;color:#3ce0da;}
+             .tu4{position: absolute;left:45%;top:40%;color:#34b1ef;}
+             
+             span{line-height: px2vh(150px);color:#343434;}
+             
+        }
+        li:nth-child(3n){
+            border-right:0;
+        }
+    }
+}

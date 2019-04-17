@@ -1,0 +1,21 @@
+@function px2vw($px){
+    @return $px / 375px * 100vw
+};
+
+@function px2vh($px){
+    @return $px / 667px * 100vh
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top : px2vh(8px);
+    h2{
+        margin: 0;
+    }
+    svg{
+        position: absolute;
+        left: px2vw(10px);
+        top: px2vh(12px);
+    }
+}

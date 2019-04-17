@@ -1,0 +1,42 @@
+@function px2vw($px){
+    @return $px / 375px * 100vw
+};
+
+@function px2vh($px){
+    @return $px / 667px * 100vh
+}
+
+.search{
+    width: 100vw;
+    padding-left: px2vw(6px);
+    height: px2vh(40px);
+    position: fixed;
+    padding-top: px2vh(10px);
+    top: 0;
+    background-color: white;
+    .back{
+        height: px2vh(28px);
+        width: px2vw(28px);
+        color: #8E8D8D;
+    }
+    label{
+        position: relative;
+        .icon{
+            position: absolute;
+            left: px2vw(15px);
+            top: px2vh(10px);
+        }
+        input{
+            border-radius: px2vh(15px);
+            width: px2vw(310px);
+            height: px2vh(30px);
+            border: 1px solid #8E8D8D;
+            margin-left: px2vw(4px);
+            margin-right: px2vw(4px);
+            padding-left: px2vw(12px);
+        }
+    }
+    span{
+        color: #EE2424;
+    }
+}

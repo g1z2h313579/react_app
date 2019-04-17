@@ -1,0 +1,93 @@
+[
+    {
+        "auth" :{
+                    "authName" : "小明同学",
+                    "authIcon" : "/img/t2.jpg",
+                    "authDate" : "2019/4/11 14:03"
+                },
+        "guanzhu" : true,
+        "disContent" : "【猫宁】做一份喜欢的早餐迎接周末的到来",
+        "disImage" : ["/img/ss.jpg","/img/ss.jpg","/img/ss.jpg"],
+        "pinglundianzan" : {
+            "share" : 10086,
+            "comment" : 10010,
+            "thumbsUp" : 12345
+        },
+        "id" : 1,
+        "dataName" : "disData"
+        
+    },
+    {
+        "auth" :{
+                    "authName" : "小张同学",
+                    "authIcon" : "/img/t2.jpg",
+                    "authDate" : "2019/4/11 14:03"
+                },
+        "guanzhu" : true,
+        "disContent" : "【猫宁】做一份喜欢的早餐迎接周末的到来",
+        "disImage" : ["/img/ss.jpg","/img/ss.jpg","/img/ss.jpg"],
+        "pinglundianzan" : {
+            "share" : 10086,
+            "comment" : 10010,
+            "thumbsUp" : 12345
+        },
+        "id" : 2,
+        "dataName" : "disData"
+        
+    },
+    {
+        "auth" :{
+                    "authName" : "小刚同学",
+                    "authIcon" : "/img/t2.jpg",
+                    "authDate" : "2019/4/11 14:03"
+                },
+        "guanzhu" : false,
+        "disContent" : "【猫宁】做一份喜欢的早餐迎接周末的到来",
+        "disImage" : ["/img/ss.jpg","/img/ss.jpg","/img/ss.jpg"],
+        "pinglundianzan" : {
+            "share" : 10086,
+            "comment" : 10010,
+            "thumbsUp" : 12345
+        },
+        "id" : 3,
+        "dataName" : "disData"
+        
+    },
+    {
+        "auth" :{
+                    "authName" : "小红同学",
+                    "authIcon" : "/img/t2.jpg",
+                    "authDate" : "2019/4/11 14:03"
+                },
+        "guanzhu" : false,
+        "disContent" : "【猫宁】做一份喜欢的早餐迎接周末的到来",
+        "disImage" : ["/img/ss.jpg","/img/ss.jpg","/img/ss.jpg"],
+        "pinglundianzan" : {
+            "share" : 10086,
+            "comment" : 10010,
+            "thumbsUp" : 12345
+        },
+        "id" : 4,
+        "dataName" : "disData"
+        
+    },
+    {
+        "auth" :{
+                    "authName" : "小花同学",
+                    "authIcon" : "/img/t2.jpg",
+                    "authDate" : "2019/4/11 14:03"
+                },
+        "guanzhu" : false,
+        "disContent" : "【猫宁】做一份喜欢的早餐迎接周末的到来",
+        "disImage" : ["/img/ss.jpg","/img/ss.jpg","/img/ss.jpg"],
+        "pinglundianzan" : {
+            "share" : 10086,
+            "comment" : 10010,
+            "thumbsUp" : 12345
+        },
+        "id" : 5,
+        "dataName" : "disData"
+        
+    }
+    
+]
